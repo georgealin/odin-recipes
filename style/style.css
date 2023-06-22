@@ -1,6 +1,7 @@
 body {
     background-color: rgba(214, 214, 214, 0.904);
     font-family: 'Times New Roman', Times, serif;
+    width: auto;
 }
 .head1 {
     font-size: 45px;
@@ -20,7 +21,23 @@ body {
     color: blue;
 }
 ul {
-    list-style-type: disc;
+    list-style-type: none;
+    width: auto;
+    border-width: 4px rgb(243, 27, 27);
+    border-style: dotted;
+    text-align: center;
+    padding: auto;
+    display: block;
+    margin: auto;
+}
+.button {
+    background-color: aqua;
+    color: black;
+    border-width: 3px green;
+    border-style: solid;
+    padding: 8px;
+    margin: 2px;
+    display: inline-block;
 }
 img {
     width: 400px;
